@@ -70,8 +70,10 @@ class Main:
             print('                                   ')
             print('--> No se ha cargado ningun archivo')
         else:
-            print('                             ')
-            print('Lista de ciudades disponibles')
+            print('                                  ')
+            print('--> Lista de ciudades reconocidas:')
+            print('                          ')
+            self.operaciones.mostrar_ciudades()
             self.ciudad_seleccionado = True
 
     def ejecutar_misiones(self):
