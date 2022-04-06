@@ -68,7 +68,7 @@ class Operaciones:
 
         if int(codigo) <= total_de_ciudades:
             p = int(codigo) - 1
-            self.mapa_txt.generar_mapa(p, self.lista_ciudades)
+            self.mapa_txt.generar_mapa(self.nombres[int(codigo)], p, self.lista_ciudades)
         else:
             print('                    ')
             print('--> Opción no valida')
